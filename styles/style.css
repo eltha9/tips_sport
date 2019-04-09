@@ -1,0 +1,115 @@
+/* 
+bleu: #2D92AF 
+gris bouton: #F8F8F8
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    font-family: "Gotham";
+    color: #2D92AF;
+}
+
+h1{
+    src: url('ITC-Avant-Garde-Gothic-LT-Bold.otf');
+}
+
+.titles{
+    text-align: center;
+}
+
+.birth{
+    position: absolute;
+    left: 150px;
+}
+
+.birth input{
+    background-color:#f8f8f8;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    display: flex;
+    cursor:pointer;
+    color:#2d93af;
+    font-size:20px;
+    padding:16px 45px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+
+.gender{
+    position: absolute;
+    left: 500px;
+}
+
+.gender .hommeFemme{
+    display: flex;
+}
+
+.gender input{
+    background-color:#f8f8f8;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    display:flex;
+    cursor:pointer;
+    color:#2d93af;
+    font-size:20px;
+    padding:16px 45px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+
+.height{
+    position: absolute;
+    top: 320px;
+    left: 150px;
+}
+
+.height input{
+    background-color:#f8f8f8;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    display:flex;
+    cursor:pointer;
+    color:#2d93af;
+    font-size:20px;
+    padding:16px 45px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+
+.weight{
+    position: absolute;
+    top: 320px;
+    left: 500px;
+}
+
+.weight input{
+    background-color:#f8f8f8;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    display:flex;
+    cursor:pointer;
+    color:#2d93af;
+    font-size:20px;
+    padding:16px 45px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+
+.problems{
+    position: absolute;
+    top: 460px;
+    left: 150px;
+}
+
+.nextStep{
+    position: absolute;
+    bottom: 250px;
+    left: 150px;
+}
