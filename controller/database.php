@@ -1,7 +1,4 @@
 <?php
-// get psw 
-$db_log = parse_ini_file("config.ini");
-$db_log = (object)$db_log;
 
 /*
     DATABASE SETUP

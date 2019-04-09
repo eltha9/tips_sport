@@ -1,9 +1,6 @@
 <?php
-require 'controller/database.php';
 
 
-$data = $pdo->query('SELECT * FROM exercices');
-var_dump($data->fetchAll());
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +11,36 @@ var_dump($data->fetchAll());
     <title>Document</title>
 </head>
 <body>
-    
+<h2>sign in</h2>
+
+<form action="./view/account.php" method="get">
+    <label>
+        Mail
+        <input type="email" placeholder="your email" name="mail">
+    </label>
+    <label>
+        password
+        <input type="password" placeholder="password" name="psw">
+    </label>
+    <input type="submit">
+</form>
+
+<h2>sign up</h2>
+
+<form action="./view/create_account.php" method="post">
+    <label>
+        nom
+        <input type="text" placeholder="your name" name="name">
+    </label>
+    <label>
+        mail
+        <input type="email" placeholder="your mail" name="mail">
+    </label>
+    <label>
+        nom
+        <input type="password" placeholder="password" name="psw">
+    </label>
+    <input type="submit">
+</form>
 </body>
 </html>
