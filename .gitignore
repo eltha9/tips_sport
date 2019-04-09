@@ -57,6 +57,6 @@ Temporary Items
 .history
 
 # End of https://www.gitignore.io/api/linux,macos,visualstudiocode
-./donner
+test/
 config.ini
-./cache
+cache/
