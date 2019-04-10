@@ -1,6 +1,12 @@
 <?php
 
-$user_data = $pdo->query('SELECT * FROM users WHERE hash_user=\''.$_SESSION['user'].'\'')->fetch();
+if(!empty($_POST)){
+    require './controller/program.php';
+}else if(empty($_POST)){
+    $user_data = $pdo->query('SELECT * FROM users WHERE hash_user=\''.$_SESSION['user'].'\'')->fetch();
+}
+
+
 
 $user_age= 20;
 ?>

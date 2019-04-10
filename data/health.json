@@ -1,0 +1,29 @@
+[
+    {
+        "issue": "Asme",
+        "restriction":{
+            "muscles": [
+                "Abdos",
+                "Pectoraux"
+            ],
+            "duration":  30
+        }
+    },
+    {
+        "issue": "Articulations",
+        "restriction":{
+            "muscles": ["Dos"],
+            "duration":  30
+        }
+    },
+    {
+        "issue": "Muscles",
+        "restriction":{
+            "muscles": [
+                "Jambes",
+                "Bras"
+            ],
+            "duration":  60
+        }
+    }
+]
