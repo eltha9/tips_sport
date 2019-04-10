@@ -2,6 +2,10 @@
 bleu: #2D92AF 
 gris bouton: #F8F8F8
 */
+@font-face {
+    font-family: "ITC-Avant-Garde-Gothic";
+    src: url(ITC-Avant-Garde-Gothic-LT-Bold.otf);
+}
 
 * {
 	box-sizing: border-box;
@@ -11,62 +15,58 @@ body{
     color: #2D92AF;
 }
 
-.gothMed{
-    font-family: Gotham;
-    font-weight: normal;
-}
-
-.gothLight{
-    font-family: Gotham;
-    font-weight: 300;
-}
-
 h1{
-    font-family: ITC Avant Garde Gothic;
-    src: url('ITC-Avant-Garde-Gothic-LT-Bold.otf');
+    font-family: "ITC-Avant-Garde-Gothic";
+    font-size: 2.375rem;
 }
 
 h2{
     src: url('Gotham-Light.otf');
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
-.tipSport h1{
-    font-size: 3.0625rem;
+h3{
+    font-size: 2.75rem;
 }
 
 .titles{
     text-align: center;
 }
 
+.gothMed{
+    font-family: Gotham;
+    font-weight: normal;
+    font-size: 2rem;
+}
 
-
-.titles h1{
-    font-size: 3.5625rem;
+.gothLight{
+    font-family: Gotham;
+    font-weight: 300;
+    font-size: 1.75rem;
 }
 
 .birth{
     position: absolute;
-    left: 150px;
+    top: 20%;
+    left: 25%;
 }
 
 .birth input{
-    background-color:#f8f8f8;
-    -moz-border-radius:2.625rem;
-    -webkit-border-radius:2.625rem;
-    border-radius:2.625rem;
     display: flex;
     cursor:pointer;
+    background-color:#f8f8f8;
     color:#2d93af;
-    font-size:1.25rem;
+    border-radius:2.625rem;
+    font-size:1.75rem;
     padding:1rem 2.8125rem;
+    height: 3.8rem;
     margin-top: 0.625rem;
-    height: 3.125rem;
 }
 
 .gender{
     position: absolute;
-    left: 500px;
+    top: 20%;
+    right: 25%;
 }
 
 .gender .ladyMan{
@@ -74,76 +74,99 @@ h2{
 }
 
 .gender input{
-    background-color:#f8f8f8;
-    -moz-border-radius:2.625rem;
-    -webkit-border-radius:2.625rem;
-    border-radius:2.625rem;
     display:flex;
     cursor:pointer;
+    background-color:#f8f8f8;
     color:#2d93af;
-    font-size:1.25rem;
+    border-radius:2.625rem;
+    font-size:1.75rem;
     padding:1rem 2.8125rem;
+    height: 3.8rem;
     margin-top: 0.625rem;
+}
+
+.gender input:hover{
+    background: #2D92AF;
+    color: white;
 }
 
 .height{
     position: absolute;
-    top: 320px;
-    left: 150px;
+    top: 36%;
+    left: 25%;
 }
 
 .height input{
-    background-color:#f8f8f8;
-    -moz-border-radius:2.625rem;
-    -webkit-border-radius:2.625rem;
-    border-radius:2.625rem;
     display:flex;
     cursor:pointer;
+    background-color:#f8f8f8;
     color:#2d93af;
-    font-size:1.25rem;
+    border-radius:2.625rem;
+    font-size:1.75rem;
     padding:1rem 2.8125rem;
+    height: 3.8rem;
     margin-top: 0.625rem;
 }
 
 .weight{
     position: absolute;
-    top: 320px;
-    left: 500px;
+    top: 36%;
+    right: 25%;
 }
 
 .weight input{
-    background-color:#f8f8f8;
-    -moz-border-radius:2.625rem;
-    -webkit-border-radius:2.625rem;
-    border-radius:2.625rem;
     display:flex;
-    cursor:pointer;
+    cursor:pointer;    
+    background-color:#f8f8f8;
     color:#2d93af;
-    font-size:1.25rem;
+    border-radius:2.625rem;
+    font-size:1.75rem;
     padding:1rem 2.8125rem;
+    height: 3.8rem;
     margin-top: 0.625rem;
 }
 
 .problems{
     position: absolute;
-    top: 460px;
-    left: 150px;
+    top: 55%;
+    left: 25%;
 }
 
+.problems li {
+    margin: 0.625rem 0rem;
+}
+
+.problems li label{
+    margin-left: 0.625rem;
+}
 .next button{
-    position: absolute;
-    bottom: 250px;
-    left: 150px;
-    cursor:pointer;
-    background-color:#2d93af;
-    -moz-border-radius:2.625rem;
-    -webkit-border-radius:2.625rem;
-    border-radius:2.625rem;
+    /*position: absolute;
+    bottom: 25%;
+    left: 50%;*/
+    margin: 0 auto;
     display:flex;
     cursor:pointer;
+    background-color:#2d93af;
     color:#ffffff;
-    font-size:1.25rem;
+    border-radius:2.625rem;
+    font-size:1.75rem;
     padding:1rem 2.8125rem;
-    margin-top: 0.625rem;
-    height: 3.125rem;
+    height: 3.8rem;
+}
+
+/* input arrows */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button,
+input::-webkit-clear-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
 }
