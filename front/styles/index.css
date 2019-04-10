@@ -1,0 +1,402 @@
+.container-sign-in
+{
+    position: relative;
+    height: 100vh;
+    width: 40%;
+    background-image: url('../images/signin.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1000;
+}
+
+.container-sign-in .blue-mask-picture
+{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #2D92AF;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    z-index: -20;
+}
+
+
+.container-sign-in .button-sign-in 
+{
+    position: absolute;
+    z-index: 3000;
+	background-color: transparent;
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1.8rem;
+	padding: 1rem 8.1rem;
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+.container-sign-in .button-sign-in:hover {
+
+	background-color:transparent;
+}
+.container-sign-in .button-sign-in:active {
+
+	position:relative;
+	top:1px;
+}
+
+.container-sign-in .content-sign-in
+{
+    opacity: 1;
+    position: relative;
+    padding-left: 5rem;
+}
+
+.content-sign-in h1
+{
+    padding-top: 5rem;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-size: 2.3rem;
+    color: white;
+}
+
+.content-sign-in p
+{
+    padding-top: 3rem;
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.content-sign-in h3
+{
+    padding-top: 3rem;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-size: 3.1rem;
+    color: white;
+}
+
+.content-sign-in-transform
+{
+    opacity: 0;
+    padding-left: 5rem;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/signin.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 800;
+}
+
+.content-sign-in-transform .button-sign-in-transform 
+{
+	background-color: transparent;
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1.8rem;
+	padding: 1rem 8.1rem;
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+.content-sign-in-transform .button-sign-in-transform:hover {
+
+	background-color:transparent;
+}
+.content-sign-in-transform .button-sign-in-transform:active {
+
+	position:relative;
+	top:1px;
+}
+
+.content-sign-in-transform h1
+{
+    padding-top: 5rem;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-size: 2.3rem;
+    color: white;
+}
+
+.content-sign-in-transform p
+{
+    padding-top: 3rem;
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: white;
+    width: 80%;
+}
+
+.content-sign-in-transform h3
+{
+    padding-top: 3rem;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-size: 3.1rem;
+    color: white;
+}
+
+.container-sign-up
+{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-sign-up .content-sign-up h1
+{
+    font-family: 'ITC Avant Garde Gothic LT';
+    color: #2D92AF;
+    font-weight: bold;
+    font-size: 2.75rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.container-sign-up .button-sign-up 
+{
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1rem;
+	padding: 5% 6%;
+    text-decoration: none;
+    margin-top: 3rem;
+    background-color: #ECEBEB;
+}
+
+.container-sign-up .button-sign-up:active {
+
+	position:relative;
+	top:1px;
+}
+
+.content-sign-up form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-sign-up form label
+{
+    color: #2D92AF;
+    font-family: 'Gotham';
+    font-weight: lighter;
+}
+
+.container-sign-up .button-sign-up-submit 
+{
+    background: #2D92AF;
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1.8rem;
+	padding: 1rem 8.1rem;
+    text-decoration: none;
+    margin-top: 8rem;
+}
+
+
+.container-sign-up-transform
+{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-sign-up-transform .content-sign-up-transform form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-sign-up-transform .content-sign-up-transform form label
+{
+    color: #2D92AF;
+    font-family: 'Gotham';
+    font-weight: lighter;
+}
+
+.container-sign-up-transform .content-sign-up-transform h1
+{
+    font-family: 'ITC Avant Garde Gothic LT';
+    color: #2D92AF;
+    font-weight: bold;
+    font-size: 2.75rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.container-sign-up-transform .content-sign-up-transform .button-sign-up
+{
+    -moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1rem;
+	padding: 5% 6%;
+    text-decoration: none;
+    margin-top: 3rem;
+    background-color: #ECEBEB;
+}
+
+.container-sign-up-transform .content-sign-up-transform .button-sign-up-submit
+{
+    background: #2D92AF;
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1.8rem;
+	padding: 1rem 8.1rem;
+    text-decoration: none;
+    margin-top: 8rem;
+}
+
+.animation-sign-in
+{
+    animation-name: SignInGoesRight;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.15,.99,.73,-0.02);
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: transform;
+    transition: all 1s ease 0s;
+}
+
+@keyframes SignInGoesRight 
+{
+    0% { transform: translateX(0%)}
+    100% { transform: translateX(150%); }
+}
+
+.animation-sign-in-reverse
+{
+    animation-name: SignInGoesRightReverse;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.15,.99,.73,-0.02);
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: transform;
+}
+
+@keyframes SignInGoesRightReverse 
+{
+ 
+}
+
+.animation-sign-up
+{
+    animation-name: SignUpGoesLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.15,.99,.73,-0.02);
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: transform, opacity;
+}
+
+@keyframes SignUpGoesLeft 
+{
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(-70%); opacity: 0; }
+}
+
+.animation-sign-up-transform
+{
+    animation-name: SignUpTransform;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.15,.99,.73,-0.02);
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: transform;
+}
+
+@keyframes SignUpTransform
+{
+    0% { transform: translateX(0%); opacity: 0;}
+    50% { opacity: 1;}
+    100% { transform: translateX(-70%); opacity: 1; }
+}
+
+.animation-content-sign-in
+{
+    animation-name: SignInContentDissapear;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: opacity;
+}
+
+@keyframes SignInContentDissapear
+{
+    0% { opacity: 1}
+    100% {opacity: 0}
+}
+
+.animation-content-sign-in-transform
+{
+    animation-name: SignInContentAppear;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    will-change: transform;
+}
+
+@keyframes SignInContentAppear
+{
+    0% { opacity: 0}
+    100% {opacity: 1}
+}

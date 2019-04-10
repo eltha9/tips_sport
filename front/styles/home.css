@@ -1,0 +1,281 @@
+body
+{
+    display: flex;
+}
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300vh;
+    width: 20%;
+    background: rgba(45,146,175,0.80);
+   
+}
+
+.sidebar .content-sidebar
+{
+    position: fixed;
+}
+
+
+
+.sidebar .content-sidebar h1
+{
+    padding: 2rem 0;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.sidebar .content-sidebar ul li
+{
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.6rem 0rem;
+}
+
+.sidebar .content-sidebar ul a
+{
+    text-decoration: none;
+}
+
+.big-container
+{
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    padding: 0rem 2rem;
+}
+
+.big-container h1
+{
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #57A8BF;
+    padding-top: 2rem;
+}
+
+.big-container .container-statistic
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.big-container .container-statistic h3
+{
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    font-weight: medium;
+    color: #57A8BF;
+}
+
+
+.big-container .container-statistic span
+{
+    font-family: 'Gotham';
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: #57A8BF;
+}
+
+.big-container .array-statistic
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8.25rem;
+    background-color: rgba(79, 214, 235, 0.2);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.big-container .array-statistic h5
+{
+    font-family: 'Gotham';
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: #2D92AF;
+    margin-bottom: 1.2rem;
+}
+
+
+.big-container .array-statistic span
+{
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    font-weight: medium;
+    color: #2D92AF;
+}
+
+.big-container .container-exercize h3
+{
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    font-weight: medium;
+    color: #57A8BF;
+    padding-top: 2rem;
+}
+
+.big-container .container-exercize p
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: #57A8BF;
+    padding-top: 1rem;
+}
+
+.big-container .first-exercize
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11rem;
+    margin-top: 3rem;
+}
+
+.big-container .first-exercize .left-content
+{
+    width: 20rem;
+}
+
+.big-container .first-exercize .left-content img
+{
+    width: 95%;
+    border-radius: 1rem;
+
+}
+
+.big-container .first-exercize .right-content
+{
+    position: relative;
+    margin-left: 1.3rem;
+    width: 80%;
+    height: 100%;
+}
+
+.big-container .first-exercize .right-content h3
+{
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    font-weight: medium;
+    color: #57A8BF;
+    margin-top: 0.3rem;
+}
+
+.big-container .first-exercize .right-content p
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: #57A8BF;
+    padding-top: 1rem;
+}
+
+
+.big-container .first-exercize .right-content span
+{
+    position: absolute;
+    right: 2.5rem;
+    bottom: 0;
+}
+
+.big-container .first-exercize .right-content span
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: medium;
+    color: #57A8BF;
+}
+
+.big-container .first-exercize .right-content span img
+{
+    position: relative;
+    fill: #57A8BF;
+    right: 1rem;
+    top: 0.45rem;
+}
+
+
+.big-container .array-weight-repetition
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 8.25rem;
+    background-color: rgba(79, 214, 235, 0.2);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.big-container .array-weight-repetition h5
+{
+    font-family: 'Gotham';
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: #2D92AF;
+    margin-bottom: 1.2rem;
+}
+
+
+.big-container .array-weight-repetition span
+{
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    font-weight: medium;
+    color: #2D92AF;
+}
+
+.big-container .container-map h3
+{
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    font-weight: medium;
+    color: #57A8BF;
+    padding-top: 2rem;
+}
+
+.big-container .container-map .map
+{
+    margin-top: 2rem;
+    width: 100%;
+    height: 30rem;
+    border: 1px solid #56A7BE;
+    border-radius: 1rem;
+}
+
+.big-container .container-planning
+{
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    font-weight: medium;
+    color: #57A8BF;
+    padding-top: 2rem;  
+}
+
+.big-container .container-planning .planning
+{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
+    background-color: rgba(79, 214, 235, 0.2);
+}
+
+
+
+
