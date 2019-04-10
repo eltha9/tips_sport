@@ -8,16 +8,41 @@ gris bouton: #F8F8F8
 }
 
 body{
-    font-family: "Gotham";
     color: #2D92AF;
 }
 
+.gothMed{
+    font-family: Gotham;
+    font-weight: normal;
+}
+
+.gothLight{
+    font-family: Gotham;
+    font-weight: 300;
+}
+
 h1{
+    font-family: ITC Avant Garde Gothic;
     src: url('ITC-Avant-Garde-Gothic-LT-Bold.otf');
+}
+
+h2{
+    src: url('Gotham-Light.otf');
+    font-size: 1.25rem;
+}
+
+.tipSport h1{
+    font-size: 3.0625rem;
 }
 
 .titles{
     text-align: center;
+}
+
+
+
+.titles h1{
+    font-size: 3.5625rem;
 }
 
 .birth{
@@ -27,16 +52,16 @@ h1{
 
 .birth input{
     background-color:#f8f8f8;
-    -moz-border-radius:42px;
-    -webkit-border-radius:42px;
-    border-radius:42px;
+    -moz-border-radius:2.625rem;
+    -webkit-border-radius:2.625rem;
+    border-radius:2.625rem;
     display: flex;
     cursor:pointer;
     color:#2d93af;
-    font-size:20px;
-    padding:16px 45px;
-    text-decoration:none;
-    margin-top: 10px;
+    font-size:1.25rem;
+    padding:1rem 2.8125rem;
+    margin-top: 0.625rem;
+    height: 3.125rem;
 }
 
 .gender{
@@ -44,22 +69,21 @@ h1{
     left: 500px;
 }
 
-.gender .hommeFemme{
+.gender .ladyMan{
     display: flex;
 }
 
 .gender input{
     background-color:#f8f8f8;
-    -moz-border-radius:42px;
-    -webkit-border-radius:42px;
-    border-radius:42px;
+    -moz-border-radius:2.625rem;
+    -webkit-border-radius:2.625rem;
+    border-radius:2.625rem;
     display:flex;
     cursor:pointer;
     color:#2d93af;
-    font-size:20px;
-    padding:16px 45px;
-    text-decoration:none;
-    margin-top: 10px;
+    font-size:1.25rem;
+    padding:1rem 2.8125rem;
+    margin-top: 0.625rem;
 }
 
 .height{
@@ -70,16 +94,15 @@ h1{
 
 .height input{
     background-color:#f8f8f8;
-    -moz-border-radius:42px;
-    -webkit-border-radius:42px;
-    border-radius:42px;
+    -moz-border-radius:2.625rem;
+    -webkit-border-radius:2.625rem;
+    border-radius:2.625rem;
     display:flex;
     cursor:pointer;
     color:#2d93af;
-    font-size:20px;
-    padding:16px 45px;
-    text-decoration:none;
-    margin-top: 10px;
+    font-size:1.25rem;
+    padding:1rem 2.8125rem;
+    margin-top: 0.625rem;
 }
 
 .weight{
@@ -90,16 +113,15 @@ h1{
 
 .weight input{
     background-color:#f8f8f8;
-    -moz-border-radius:42px;
-    -webkit-border-radius:42px;
-    border-radius:42px;
+    -moz-border-radius:2.625rem;
+    -webkit-border-radius:2.625rem;
+    border-radius:2.625rem;
     display:flex;
     cursor:pointer;
     color:#2d93af;
-    font-size:20px;
-    padding:16px 45px;
-    text-decoration:none;
-    margin-top: 10px;
+    font-size:1.25rem;
+    padding:1rem 2.8125rem;
+    margin-top: 0.625rem;
 }
 
 .problems{
@@ -108,8 +130,20 @@ h1{
     left: 150px;
 }
 
-.nextStep{
+.next button{
     position: absolute;
     bottom: 250px;
     left: 150px;
+    cursor:pointer;
+    background-color:#2d93af;
+    -moz-border-radius:2.625rem;
+    -webkit-border-radius:2.625rem;
+    border-radius:2.625rem;
+    display:flex;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:1.25rem;
+    padding:1rem 2.8125rem;
+    margin-top: 0.625rem;
+    height: 3.125rem;
 }
