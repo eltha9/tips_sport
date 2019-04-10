@@ -1,7 +1,11 @@
-/* 
-bleu: #2D92AF 
-gris bouton: #F8F8F8
-*/
+/* bleu: #2D92AF | gris bouton: #F8F8F8 */
+
+
+/*********
+
+INDEX.HTML
+
+*********/
 
 * {
 	box-sizing: border-box;
@@ -144,7 +148,7 @@ h3{
     padding-left: 2.8125rem;
 }
 
-/* Problems */
+/* Health problems */
 
 .problems{
     position: absolute;
@@ -160,7 +164,7 @@ h3{
     margin-left: 0.625rem;
 }
 
-/* btn "Suivant" */
+/* button "Suivant" */
 
 .next button{
     position: absolute;
@@ -202,7 +206,7 @@ h3{
 }
 
 
-/* input arrows */
+/* remove input arrows */
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button,
@@ -217,4 +221,67 @@ input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
+}
+
+/************
+
+OBJECTIF.HTML
+
+************/
+
+/* sport goal */
+
+.icons {
+    margin-top: 4.25rem;
+}
+
+.icons p{
+    text-align: center;
+}
+
+.icons img{
+    width: 150px;
+    border: 1px solid #2D92AF;
+    border-radius: 28px;
+    padding: 0.9375rem;
+}
+
+.icons img:hover{
+    background: #2D92AF;
+}
+
+.icons img:focus{
+    background: #2D92AF;
+    opacity: 0.2;
+}
+
+.icons .iconsImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+}
+
+.icons .iconsImg p{
+    margin-top: 0.625rem;
+}
+
+.icons .iconsImg .pdp p,
+.icons .iconsImg .pdm p{
+    transform: translate(-12%);
+}
+
+/* body part */
+
+.body {
+    text-align: center;
+    margin-top: 5.25rem;
+}
+
+.body form{
+    margin-top: 1.5625rem;
+}
+
+.body form label{
+    padding: 0 1.5625rem 0 0.3125rem;
 }
