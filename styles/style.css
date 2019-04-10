@@ -1,0 +1,305 @@
+/* bleu: #2D92AF | gris bouton: #F8F8F8 */
+
+
+/*********
+
+INDEX.HTML
+
+*********/
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    color: #2D92AF;
+}
+
+h1{
+    font-family: "ITC Avant Garde Gothic LT";
+    font-size: 2.375rem;
+    margin: 1.875rem 0 0 6.25rem;
+}
+
+h2{
+    src: url('Gotham-Light.otf');
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 2.75rem;
+    font-family: "ITC Avant Garde Gothic LT";
+    margin-top: 1.25rem;
+}
+
+.titles{
+    text-align: center;
+}
+
+/* Fonts thickness */
+
+.gothMed{
+    font-family: Gotham;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.gothLight{
+    font-family: Gotham;
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+/* Birth */
+
+.birth{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%);
+}
+
+.birth input{
+    display: flex;
+    cursor:pointer;
+    background-color:#f8f8f8;
+    color:#2d93af;
+    border-radius:2.625rem;
+    font-size:1.75rem;
+    padding:1rem 2.8125rem;
+    height: 3.8rem;
+    margin-top: 0.9375rem;
+}
+
+/* Gender */
+
+.gender{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    transform: translate(-50%);
+}
+
+.gender .ladyMan{
+    display: flex;
+}
+
+.gender input{
+    display:flex;
+    cursor:pointer;
+    background-color:#f8f8f8;
+    color:#2d93af;
+    border-radius:2.625rem;
+    font-size:1.75rem;
+    padding:1rem 2.8125rem;
+    height: 3.8rem;
+    margin-top: 0.9375rem;
+}
+
+.gender input:hover{
+    background: #2D92AF;
+    color: white;
+}
+
+.gender input:focus{
+    background: #2D92AF;
+    color: white;
+}
+
+/* Height */
+
+.height{
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    transform: translate(-50%);
+}
+
+.height input{
+    display:flex;
+    cursor:pointer;
+    background-color:#f8f8f8;
+    color:#2d93af;
+    border-radius:2.625rem;
+    font-size:1.75rem;
+    height: 3.8rem;
+    margin-top: 0.9375rem;
+    padding-left: 2.8125rem;
+}
+
+/* Weight */
+
+.weight{
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    transform: translate(-50%);
+}
+
+.weight input{
+    display:flex;
+    cursor:pointer;    
+    background-color:#f8f8f8;
+    color:#2d93af;
+    border-radius:2.625rem;
+    font-size:1.75rem;
+    height: 3.8rem;
+    margin-top: 0.9375rem;
+    padding-left: 2.8125rem;
+}
+
+/* Health problems */
+
+.problems{
+    position: absolute;
+    top: 57%;
+    left: 27%;
+}
+
+.problems li {
+    margin: 0.625rem 0rem;
+}
+
+.problems li label{
+    margin-left: 0.625rem;
+}
+
+/* button "Suivant" */
+
+.next button{
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%);
+    display:flex;
+    cursor:pointer;
+    background-color:#2d93af;
+    color:#ffffff;
+    border-radius:2.625rem;
+    font-size:1.75rem;
+    padding:1rem 5rem;
+    height: 3.8rem;
+    text-transform: uppercase;
+}
+
+/* progress bar */
+
+.container {
+    width: 900px;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%);
+}
+    
+    .progress {
+    height: 10px;
+    border: 2px solid #2D92AF;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+    
+    .progress .bar {
+    width: 33%;
+    height: 100%;
+    background-color: #2D92AF; 
+}
+
+
+/* remove input arrows */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button,
+input::-webkit-clear-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+/************
+
+OBJECTIF.HTML
+
+************/
+
+/* sport goal */
+
+.icons {
+    margin-top: 4.25rem;
+}
+
+.icons p{
+    text-align: center;
+}
+
+.icons img{
+    width: 150px;
+    border: 1px solid #2D92AF;
+    border-radius: 28px;
+    padding: 0.9375rem;
+}
+
+.icons img:hover{
+    background: #2D92AF;
+}
+
+.icons img:focus{
+    background: #2D92AF;
+    opacity: 0.2;
+}
+
+.icons .iconsImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+}
+
+.icons .iconsImg p{
+    margin-top: 0.625rem;
+}
+
+.icons .iconsImg .pdp p,
+.icons .iconsImg .pdm p{
+    transform: translate(-12%);
+}
+
+/* body part */  
+
+.bodyPart, .days{
+    text-align: center;
+    margin-top: 4.25rem;
+}
+
+.bodyPart form{
+    margin-top: 1.5625rem;
+}
+
+.bodyPart form label{
+    padding: 0 1.5625rem 0 0.3125rem;
+}
+
+
+/************
+PLANNING.HTML
+************/
+
+.time{
+    text-align: center;
+    margin-top: 5.25rem;
+}
+
+.days form, .time form{
+    margin-top: 1.5625rem;
+}
+
+.days form label, .time form label{
+    padding: 0 1.5625rem 0 0.3125rem;
+}

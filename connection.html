@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TipSport</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/connection.css">
+</head>
+<body>
+<div class="container-sign-up-transform">
+    <div class="content-sign-up-transform">
+        <h1>Connectez vous !</h1>
+        <form action="./view/account.php" method="post">   
+            <div class="button-sign-up">
+                <label for="email">
+                    <img src="images/mail.svg" alt="">
+                </label>
+                <input type="email" name="mail" id="email" placeholder="mail">
+            </div>
+
+            <div class="button-sign-up">
+                <label for="password">
+                    <img src="images/lock.svg" alt="">
+                </label>
+                <input type="password" name="psw" id="password" placeholder="mot de passe">
+            </div>
+            <div class="forgot">
+                <li><a href="#">Mot de passe oublié ?</a></li>
+            </div>
+
+            <div class="button-sign-up-submit">
+                <input type="submit" value="Connection">
+            </div>
+        </form>
+    </div>
+</div>
+</body>

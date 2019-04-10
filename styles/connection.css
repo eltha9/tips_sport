@@ -1,0 +1,101 @@
+body
+{
+    display: flex;
+}
+
+
+.container-sign-up-transform
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-sign-up-transform .content-sign-up-transform form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container-sign-up-transform .content-sign-up-transform form input
+{
+    color: #2D92AF;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.container-sign-up-transform .content-sign-up-transform form label
+{
+    color: #2D92AF;
+    font-family: 'Gotham';
+    font-weight: lighter;
+}
+
+.container-sign-up-transform .content-sign-up-transform h1
+{
+    font-family: 'ITC Avant Garde Gothic LT';
+    color: #2D92AF;
+    font-weight: bold;
+    font-size: 2.75rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.container-sign-up-transform .content-sign-up-transform .button-sign-up
+{
+    -moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:  'Gotham';
+	font-size: 1rem;
+	padding: 5% 6%;
+    text-decoration: none;
+    margin-top: 3rem;
+    background-color: rgba(248,248,248,0.8);
+}
+
+.container-sign-up-transform .content-sign-up-transform .button-sign-up-submit
+{
+    background: white;
+    border: 1px solid #2D92AF;
+	-moz-border-radius: 1.75rem;
+	-webkit-border-radius: 1.75rem;
+	border-radius: 1.75rem;
+	display: inline-block;
+	cursor: pointer;
+	font-family:  'Gotham';
+	font-size: 1.8rem;
+	padding: 1rem 8.1rem;
+    text-decoration: none;
+    margin-top: 8rem;
+}
+
+.button-sign-up label img
+{
+    position: relative;
+    margin-right: 1rem;
+    top: 0.25rem;
+}
+
+.forgot li
+{
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    list-style: none;
+    color: #2D92AF;
+    font-family: 'Gotham';
+    font-weight: lighter;   
+}
+
+.forgot a
+{
+    text-decoration: none;
+}
