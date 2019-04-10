@@ -1,6 +1,10 @@
 <?php
+include './controller/location.php';
 
+$place=ip_location('78.31.41.54');
+var_dump($place);
 
+places($place->data->latitude.','.$place->data->longitude);
 ?>
 <!DOCTYPE html>
 <html lang="en">
