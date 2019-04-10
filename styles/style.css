@@ -271,17 +271,35 @@ OBJECTIF.HTML
     transform: translate(-12%);
 }
 
-/* body part */
+/* body part */  
 
-.body {
+.bodyPart, .days{
+    text-align: center;
+    margin-top: 4.25rem;
+}
+
+.bodyPart form{
+    margin-top: 1.5625rem;
+}
+
+.bodyPart form label{
+    padding: 0 1.5625rem 0 0.3125rem;
+}
+
+
+/************
+PLANNING.HTML
+************/
+
+.time{
     text-align: center;
     margin-top: 5.25rem;
 }
 
-.body form{
+.days form, .time form{
     margin-top: 1.5625rem;
 }
 
-.body form label{
+.days form label, .time form label{
     padding: 0 1.5625rem 0 0.3125rem;
 }
