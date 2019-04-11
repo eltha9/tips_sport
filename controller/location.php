@@ -1,5 +1,5 @@
 <?php 
-require 'curl.php';
+
 
 function ip_location($ip){
     $data = to_get('https://ipvigilante.com/'.$ip);

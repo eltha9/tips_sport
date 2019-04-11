@@ -32,7 +32,7 @@ $user_age= 20;
                 <li><a class='testjs4' href='#sec4'>Carte</a></li>
             </div>
             <div class="bottom-content">
-                <li><a href="">Tout les exercices</a></li>
+                <li><a href="exercices.php">Tout les exercices</a></li>
                 <li><a href="./view/logout.php">Déconnection</a></li>
             </div>
         </ul>
@@ -130,6 +130,5 @@ $user_age= 20;
     
 <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxO8x-NVuG-PsoRYu444MyVWaz9soiqX0&callback=initMap" sync defer></script>
 <script  src="scripts/app.js"></script>
-<script src="js/home.js"></script>
 </body>
 </html>

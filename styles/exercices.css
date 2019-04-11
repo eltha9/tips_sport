@@ -1,0 +1,192 @@
+body
+{
+    display: flex;
+}
+
+.active
+{
+    display: block;
+}
+
+.inactive
+{
+    display: none;
+}
+
+.active-button
+{
+    font-weight: bold;
+}
+.inactive-button
+{
+    font-weight: lighter;
+}
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 20%;
+    background: rgba(45,146,175,0.80);
+   
+}
+
+.sidebar .content-sidebar
+{
+    position: fixed;
+}
+
+
+
+.sidebar .content-sidebar h1
+{
+    padding: 2rem 0;
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.sidebar .content-sidebar ul li
+{
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.6rem 0rem;
+}
+
+.sidebar .content-sidebar ul a
+{
+    text-decoration: none;
+}
+
+.big-container
+{
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    padding: 0rem 2rem;
+}
+
+.big-container h1
+{
+    font-family: 'ITC Avant Garde Gothic LT';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #57A8BF;
+    padding-top: 2rem;
+}
+
+.big-container .title-exercice
+{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.big-container .title-exercice h2
+{
+    font-family: 'Gotham';
+    font-size: 2rem;
+    color: #57A8BF;
+    padding-top: 2rem;
+}
+
+
+.big-container .container-weight-gain
+{
+    height: 100vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.big-container .container-weight-gain .exercice-template
+{
+    display: flex;
+    height: 21rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.big-container .container-weight-gain .exercice-template .container-picture
+{
+    width: 20rem;
+    height: 177px;;
+}
+
+.big-container .container-weight-gain .exercice-template .container-picture img
+{
+    border-radius: 1rem;
+    width: 95%;
+    height: 100%;
+
+}
+
+.big-container .array-weight-repetition
+{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    width: 19rem;
+    height: 10rem;
+    background-color: rgba(79, 214, 235, 0.2);
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.big-container .container-weight-gain .exercice-template .array-weight-repetition h5
+{
+    font-family: 'Gotham';
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: #2D92AF;
+}
+
+
+.big-container .container-weight-gain .exercice-template .array-weight-repetition span
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: medium;
+    color: #2D92AF;
+}
+
+.exercice-template .container-content-exercice
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.exercice-template .container-content-exercice h3
+{
+    font-family: 'Gotham';
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #2D92AF;
+}
+
+.exercice-template .container-content-exercice h5
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2D92AF; 
+}
+
+.exercice-template .container-content-exercice p
+{
+    font-family: 'Gotham';
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #2D92AF; 
+    line-height: 1.3rem;
+}
