@@ -2,9 +2,8 @@
 
 
 function ip_location($ip){
-    $data = to_get('https://ipvigilante.com/'.$ip);
+    $data = to_curl('https://ipvigilante.com/'.$ip,'../cache/');
 
-    $data = json_decode($data);
 
     return $data;
 }
@@ -24,8 +23,7 @@ function places($place){
 
     $returned_data =[];
     
-    $data = to_get($url);
-    $data = json_decode($data);
+    $data = to_curl($url,'../cache/');
 
     foreach($data->results as $result){ //dispaly the first 20 salle
         $temp_data = [
@@ -44,8 +42,7 @@ function places($place){
             'key' => $key,
         ]);
         $next_url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?'.$query;
-        $data=to_get($next_url);
-        $data = json_decode($data);
+        $data=to_curl($next_url,'../cache/');
         foreach($data->results as $result){
             $temp_data = [
                 "name"=>$result->name,

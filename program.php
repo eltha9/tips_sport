@@ -8,6 +8,7 @@
         <title>Informations principales</title>
         <link type="text/css" rel="stylesheet" href="styles/reset.css">
         <link type="text/css" rel="stylesheet" href="styles/program.css">
+        <link rel="shortcut icon" href="favicon.png" type="image/png">
     </head>
     
     <body>

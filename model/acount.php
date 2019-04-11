@@ -45,6 +45,7 @@ foreach($semaine as $jour){
     <title>TipSport</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
  <body>
 <div class="sidebar">

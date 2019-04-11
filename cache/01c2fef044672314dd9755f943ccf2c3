@@ -1,0 +1,816 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CrQCJQEAAC_gW2E9lSuwnUGuR_49t6U1ZIpv7jYp6lseDd7yx33MPAo_YJyY-Q4YUp4x2040ELD3Sd30l6Z0oAElfGHIks5qe2d_S4qO_r9Dndvl_Uv_xjE4N2wMR_0bCqX8U_YSfb3tNUVE_W8jM4kgOxnP4ehl_v5dF3YmUNJgMJ3ombyiEnQ8pWVCM-t4jnAGUsWqQ51YRIlBxgCEDO4AW8A7eAzW1qfd9gbbWsixCN1C0pFyYFbkWBB49-WT8uNzfSwWCkeFiyD7c2fVq-rIxrAX8jC7s9t7XTl67VjRhANxQwbIcd_E6UjffvmnqS-oexSOty3aTlLPPAxHN8BUI5NlROCkHYWaWZ_qWgB8Obfol103xj1o2mFMXmAavbhFTIhDQLjB1JCQGjhHKfYlWx3lKGISEBuIy9fiDdI_cdCxiu6HgyoaFNBxiflLL5MGe2KIYsF_YJbLQGuA",
+   "results" : [
+      {
+         "formatted_address" : "107 Avenue des Pervenches, 93370 Montfermeil, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8871999,
+               "lng" : 2.5508325
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.88859447989272,
+                  "lng" : 2.552189379892722
+               },
+               "southwest" : {
+                  "lat" : 48.88589482010727,
+                  "lng" : 2.549489720107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e011291be4fe3a0743b4e9a475ad606f60114eb8",
+         "name" : "Espace Forme",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 336,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100990302292362063765/photos\"\u003eJéJé JéJé\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhzZkDdfWBw15FL8-xmTvAhuP-w1VHfWnpfT1SWzAE6aYGzsf-LHxePZD3olJMC6u1_LS0vpymJHi0ANAWFVKBb72Yp-Hp8X33TYTc_5UBiobVGfe015uHi41Nn_MW5fyEhATpxBwEDj8qY4LsAP6uzUBGhS6JKVw6T8U6JoHexsFeNOxnYshlA",
+               "width" : 448
+            }
+         ],
+         "place_id" : "ChIJk3lXsoAR5kcRsu8Hw-REj_c",
+         "plus_code" : {
+            "compound_code" : "VHP2+V8 Montfermeil, France",
+            "global_code" : "8FW4VHP2+V8"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJk3lXsoAR5kcRsu8Hw-REj_c",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 13
+      },
+      {
+         "formatted_address" : "106 Avenue Thiers, 93340 Le Raincy, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.897749,
+               "lng" : 2.521448
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.89912187989272,
+                  "lng" : 2.522819929892722
+               },
+               "southwest" : {
+                  "lat" : 48.89642222010728,
+                  "lng" : 2.520120270107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "915bb5aa691693f241887af43b300a3cb5864350",
+         "name" : "Magic Form",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103207335145369823895/photos\"\u003eHoussine ELAS\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAG7f8Vfe82bBgrzfLxUQc-B7Dw4VCgmoxF4StZrLdPfZ3crIHhd5iJCfycDO_4E5zIaGsCiFEB8q4aWajLIQb7eVoDw5JXINNoTNCdER8Xne4C3_PUBa9a571qdAseYhVEhB8ou5BkC5oOKrbvaMhmu6uGhRhXeMYdC-Ta0ea6Sq-7tMgATilMA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJuQ5K4LMT5kcRIHSoGPIxMps",
+         "plus_code" : {
+            "compound_code" : "VGXC+3H Le Raincy, France",
+            "global_code" : "8FW4VGXC+3H"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJuQ5K4LMT5kcRIHSoGPIxMps",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 74
+      },
+      {
+         "formatted_address" : "27 Allée du Plateau, 93250 Villemomble, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8805584,
+               "lng" : 2.5057078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.88183417989272,
+                  "lng" : 2.506921479892723
+               },
+               "southwest" : {
+                  "lat" : 48.87913452010728,
+                  "lng" : 2.504221820107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1d484ec2938cd5411c6fc53093b64403879adb22",
+         "name" : "GIGAFIT Villemomble",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 800,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112344044735753310271/photos\"\u003eGIGAFIT Villemomble\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALcMcMCstUpQgobCUHdwM7ws_kx4o-XUs6jlG7xuCEXWACYIAzGJCiO4SBXcu6RHW9eBpiNC8CgdPgIMdhqmIZhtU4sHlm44luI1KUhq1qZmFq1NUtlEymfcBQEpZozjUEhCp0kO5aABN6zHZCxX1gkP7GhSb0c6cgVjWSHowk3VLOr6Nc3mKvQ",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJUyd9ilgS5kcRbhASrtOkKfY",
+         "plus_code" : {
+            "compound_code" : "VGJ4+67 Villemomble, France",
+            "global_code" : "8FW4VGJ4+67"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJUyd9ilgS5kcRbhASrtOkKfY",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 93
+      },
+      {
+         "formatted_address" : "5 Rue Severine, 93600 Aulnay-sous-Bois, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.9274235,
+               "lng" : 2.4896601
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.92879742989272,
+                  "lng" : 2.490992479892722
+               },
+               "southwest" : {
+                  "lat" : 48.92609777010728,
+                  "lng" : 2.488292820107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3a9fdc63e8d6c37899dbf630b100dc9338e6fa84",
+         "name" : "Salle de Sport Lady Concept Aulnay Sous Bois",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110528677473407273462/photos\"\u003eLady Moving\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAO2zo-uwcCxC6e3lQtDc3djxgzBSBvBzZm5nVj5EjJrYU6dzbciJfkXdgg0y3MU8yla-JRCffcFbpaU-qooxAYsuuAxStGW2eDxCOg-kqbI4w7hwWSPXJfUE_wlJgqkEXEhAy2vK6hMiirU-ZDNoBCQ19GhQqKyldPMc_k4-4YQBqP8dcV-e4Uw",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJgV52wpMU5kcRn26DCSbjCJ0",
+         "plus_code" : {
+            "compound_code" : "WFGQ+XV Aulnay-sous-Bois, France",
+            "global_code" : "8FW4WFGQ+XV"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJgV52wpMU5kcRn26DCSbjCJ0",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 79
+      },
+      {
+         "formatted_address" : "126 Rue de Neuilly, 93250 Villemomble, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8772273,
+               "lng" : 2.5236447
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.87863577989273,
+                  "lng" : 2.525038529892722
+               },
+               "southwest" : {
+                  "lat" : 48.87593612010728,
+                  "lng" : 2.522338870107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id" : "018a2b6bc0160d9c36eadaf770779ebbd0514e88",
+         "name" : "Salle de Sports Maurice Chastanier",
+         "photos" : [
+            {
+               "height" : 1356,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108294007776392875041/photos\"\u003ePaul Fleury\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKq2h51FEh0lSZXGTIo_Xj2Q48TPtOk4bPj6t-mEncGeNsugL4brffnl4nSgv0qhvbS0LwVwXn5tqkXC89vOyPzzNriqvCRQOSZ04Wwl9QwynpNBF3LIO-jpl7rUSPSs5EhBqd9uwWt-WGSaJnHJtE3pAGhTTvIZRFPZFN4JOjIL9FFOcfXYziw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJm3wfM0ES5kcRU-u12MeWeY4",
+         "plus_code" : {
+            "compound_code" : "VGGF+VF Villemomble, France",
+            "global_code" : "8FW4VGGF+VF"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJm3wfM0ES5kcRU-u12MeWeY4",
+         "types" : [
+            "city_hall",
+            "local_government_office",
+            "gym",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "Chemin de Montguichet, 93220 Gagny, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8823058,
+               "lng" : 2.5478535
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.88362447989272,
+                  "lng" : 2.549210429892722
+               },
+               "southwest" : {
+                  "lat" : 48.88092482010728,
+                  "lng" : 2.546510770107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f01c9cc9acb27b58e4f39653194a6f976a88cf7a",
+         "name" : "gymnase gagny",
+         "place_id" : "ChIJ72cydCgS5kcRAYhY26A9yks",
+         "plus_code" : {
+            "compound_code" : "VGJX+W4 Gagny, France",
+            "global_code" : "8FW4VGJX+W4"
+         },
+         "rating" : 3,
+         "reference" : "ChIJ72cydCgS5kcRAYhY26A9yks",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1
+      },
+      {
+         "formatted_address" : "26 Avenue Thiers, 93340 Le Raincy, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.9001634,
+               "lng" : 2.5133625
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.90181027989271,
+                  "lng" : 2.514979679892722
+               },
+               "southwest" : {
+                  "lat" : 48.89911062010727,
+                  "lng" : 2.512280020107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "eb69ac53bbf9a78504d4f5af0b5d6c7819582b5d",
+         "name" : "Associations Sportives du Raincy",
+         "place_id" : "ChIJO3em5q4T5kcRIfnGnzv3AHw",
+         "plus_code" : {
+            "compound_code" : "WG27+38 Le Raincy, France",
+            "global_code" : "8FW4WG27+38"
+         },
+         "rating" : 0,
+         "reference" : "ChIJO3em5q4T5kcRIfnGnzv3AHw",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "formatted_address" : "10-14 Avenue du Général de Gaulle, 77500 Chelles, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8695304,
+               "lng" : 2.5773225
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.87097472989272,
+                  "lng" : 2.578652179892722
+               },
+               "southwest" : {
+                  "lat" : 48.86827507010728,
+                  "lng" : 2.575952520107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b8b075c0e5f322606d7e5c3f9bffbefd40196245",
+         "name" : "FITNESS PARK CHELLES",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1239,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101613609420452453064/photos\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAApy0o1Z2r5enxr3ZHsk8vS-qf9l7RJ8VXluZKMrOXLriAZZQvAP5Q2qhfPRbCWgFbdAHgtT7vpWKOgufl6tsaE2gJ8KQIKCICa_6bAbGn1wmXKeC35vwCuHDKzVv445W7EhBbNR4-uFmKVYMSyj9n5m3DGhSv7MCw1PD14ceCVDYI9Bwk6WCdEg",
+               "width" : 1652
+            }
+         ],
+         "place_id" : "ChIJY8j6MMcR5kcRvIeSXGptZoo",
+         "plus_code" : {
+            "compound_code" : "VH9G+RW Chelles, France",
+            "global_code" : "8FW4VH9G+RW"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJY8j6MMcR5kcRvIeSXGptZoo",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 270
+      },
+      {
+         "formatted_address" : "62-64 Avenue des Roses, 93250 Villemomble, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8783657,
+               "lng" : 2.5186998
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.87956272989271,
+                  "lng" : 2.519996779892722
+               },
+               "southwest" : {
+                  "lat" : 48.87686307010727,
+                  "lng" : 2.517297120107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "741ff38156d1658eed5305ae2ddc444694c23f81",
+         "name" : "Gymnase Audrey Tcheuméo",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJRXIvcUQS5kcR7H8vVR8uA6I",
+         "plus_code" : {
+            "compound_code" : "VGH9+8F Villemomble, France",
+            "global_code" : "8FW4VGH9+8F"
+         },
+         "rating" : 4,
+         "reference" : "ChIJRXIvcUQS5kcR7H8vVR8uA6I",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 16
+      },
+      {
+         "formatted_address" : "Rue du 18 Juin, 93220 Gagny, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8783083,
+               "lng" : 2.5550049
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.87964267989272,
+                  "lng" : 2.556355629892722
+               },
+               "southwest" : {
+                  "lat" : 48.87694302010728,
+                  "lng" : 2.553655970107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "127bb037afbc8f0d518e2083a632773b6ba5de0d",
+         "name" : "Gymnase Victor Hugo",
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107122421348617110859/photos\"\u003eSuman Bhattarai\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAr0NzpxaRFHORi4BjzCksfkPAbleiBH2Y36G1MSh2nSOHsB5_8ZngNFFdEhldJZv_JucapF4wwi0e8DWt-XOxFYtoa039BYByCCKkt_oCnEQWi_Q1X1BcAukkPN_H01y9EhD9LL-_RUKXUKdeBmDPodgVGhQ5MCF4134Pq9KH2PDiSZ_bfIGHSQ",
+               "width" : 2336
+            }
+         ],
+         "place_id" : "ChIJYc23JYkR5kcRsK_T3WZx7Q8",
+         "plus_code" : {
+            "compound_code" : "VHH4+82 Gagny, France",
+            "global_code" : "8FW4VHH4+82"
+         },
+         "rating" : 4,
+         "reference" : "ChIJYc23JYkR5kcRsK_T3WZx7Q8",
+         "types" : [
+            "gym",
+            "city_hall",
+            "local_government_office",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 6
+      },
+      {
+         "formatted_address" : "88 Rue des Frères Lumière, 93330 Neuilly-sur-Marne, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8670328,
+               "lng" : 2.5191406
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.86824807989272,
+                  "lng" : 2.520582329892722
+               },
+               "southwest" : {
+                  "lat" : 48.86554842010728,
+                  "lng" : 2.517882670107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f3a758f75119423fcd196809c544416993a55beb",
+         "name" : "World Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJObx3sG4S5kcRk651ZPGaQYM",
+         "plus_code" : {
+            "compound_code" : "VG89+RM Neuilly-sur-Marne, France",
+            "global_code" : "8FW4VG89+RM"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJObx3sG4S5kcRk651ZPGaQYM",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19
+      },
+      {
+         "formatted_address" : "Centre Commercial de Val de fontennay, 12 Rue de la Mare À Guillaume, 94120 Fontenay-sous-Bois, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8546436,
+               "lng" : 2.486129
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.85610027989272,
+                  "lng" : 2.487360829892722
+               },
+               "southwest" : {
+                  "lat" : 48.85340062010728,
+                  "lng" : 2.484661170107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "04ee498b67bfbf05853ef6d1b2c81fb99982fa85",
+         "name" : "Energie Forme Fontenay sous Bois",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114048989515057342419/photos\"\u003eRuthney Sainte-rose\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAArTzQD5txlZpXNyB0UYtPJ71xCJ48fTWGwZ9mesiPI-zSYga7sVofhY4n2rH8bg1waP8K2gz6DPGahofo4aZCeLSwr97TVPGtVKkHaBCcuLj4kCm03D8qw2HktIMZMnbkEhCdfmn8NLefMOlqt4r6rxOyGhQp_89w2nwyqaou5ki_HlHni6KQoA",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJO775uJQS5kcRbwO2zfStlLw",
+         "plus_code" : {
+            "compound_code" : "VF3P+VF Fontenay-sous-Bois, France",
+            "global_code" : "8FW4VF3P+VF"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJO775uJQS5kcRbwO2zfStlLw",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 70
+      },
+      {
+         "formatted_address" : "112 Avenue du Général de Gaulle, 93110 Rosny-sous-Bois, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.88036,
+               "lng" : 2.4787936
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.88170982989273,
+                  "lng" : 2.480143429892722
+               },
+               "southwest" : {
+                  "lat" : 48.87901017010729,
+                  "lng" : 2.477443770107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "45ae0d31cce05704ca171d451769d545c0b3b1a2",
+         "name" : "Fire Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116923182570705547253/photos\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAnOBgmogp33wzrVrgR_x0dGbUXd56m-xW9MZpJP9uTNcfYet3aKrd9pQsp-yXf2t6eWczPv3ZCDlPkOrN0J5qj6HVaFBprOghoOVUzWkJlqq6DdJrrCMQmGin_OzFs5ifEhCo8F5U1r7BGISxv6Kibcp_GhRNc5LuVjruIt9n9w95u_ghSMMsxg",
+               "width" : 722
+            }
+         ],
+         "place_id" : "ChIJX_iKx8MS5kcRkDa9lhXGFK0",
+         "plus_code" : {
+            "compound_code" : "VFJH+4G Rosny-sous-Bois, France",
+            "global_code" : "8FW4VFJH+4G"
+         },
+         "rating" : 3,
+         "reference" : "ChIJX_iKx8MS5kcRkDa9lhXGFK0",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 71
+      },
+      {
+         "formatted_address" : "55 Avenue du Colonel Fabien, 93190 Livry-Gargan, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.9179377,
+               "lng" : 2.5155865
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.91926217989272,
+                  "lng" : 2.516995629892723
+               },
+               "southwest" : {
+                  "lat" : 48.91656252010728,
+                  "lng" : 2.514295970107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "32ed6f17753d3bae1dd1df1418462f9fa0b1c36b",
+         "name" : "Gymnase Joseph Zami",
+         "place_id" : "ChIJoXg2fJkT5kcR4hb__FhAlv0",
+         "plus_code" : {
+            "compound_code" : "WG98+56 Livry-Gargan, France",
+            "global_code" : "8FW4WG98+56"
+         },
+         "rating" : 2.5,
+         "reference" : "ChIJoXg2fJkT5kcR4hb__FhAlv0",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 13
+      },
+      {
+         "formatted_address" : "135 Avenue Henri Barbusse, 93140 Bondy, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.89994979999999,
+               "lng" : 2.4935975
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.90120277989272,
+                  "lng" : 2.494902229892722
+               },
+               "southwest" : {
+                  "lat" : 48.89850312010728,
+                  "lng" : 2.492202570107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "73d84ee6cd211b2a9a1221d298f10927231d2314",
+         "name" : "AS Bondy Judo",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJywKzOBsT5kcRbgODTdWdh8k",
+         "plus_code" : {
+            "compound_code" : "VFXV+XC Bondy, France",
+            "global_code" : "8FW4VFXV+XC"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJywKzOBsT5kcRbgODTdWdh8k",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14
+      },
+      {
+         "formatted_address" : "9 Avenue Thiers, 93340 Le Raincy, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.90154769999999,
+               "lng" : 2.5120326
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.90288857989272,
+                  "lng" : 2.513389729892722
+               },
+               "southwest" : {
+                  "lat" : 48.90018892010728,
+                  "lng" : 2.510690070107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d4985517fa5c973cbaa8edb2ea3e38163a7dcc30",
+         "name" : "Beauty Form Lady Le Raincy",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108789626808636353926/photos\"\u003eBeauty Form Lady Le Raincy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_-NNFPhhLWyy5dVSdUW5j2jHffN2LMIJcdFFcdrrKq9glwKGDbVG2sXYzpsI99JOaThsecW668Vp7iKV0j2nJm2EmgoVcafpj6wlMxy4r4D9W0HuaORgWhnrPUzGXszgEhDOzWi3KxQDrc_BB2bM6pIkGhTlTc2pxCv1Kh7V_irc-Rkyv-JyDQ",
+               "width" : 3019
+            }
+         ],
+         "place_id" : "ChIJb3URNK8T5kcRl_DBxUL8uC0",
+         "plus_code" : {
+            "compound_code" : "WG26+JR Le Raincy, France",
+            "global_code" : "8FW4WG26+JR"
+         },
+         "rating" : 1,
+         "reference" : "ChIJb3URNK8T5kcRl_DBxUL8uC0",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2
+      },
+      {
+         "formatted_address" : "7 Rue Nicolas Robert, 93600 Aulnay-sous-Bois, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.9466662,
+               "lng" : 2.4852596
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.94804267989272,
+                  "lng" : 2.486664629892722
+               },
+               "southwest" : {
+                  "lat" : 48.94534302010727,
+                  "lng" : 2.483964970107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "563f366a86e365697a090a9ae9f1a346759a2180",
+         "name" : "Self Musculation",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJk8ompr0U5kcRAiJ8_apU_mc",
+         "plus_code" : {
+            "compound_code" : "WFWP+M4 Aulnay-sous-Bois, France",
+            "global_code" : "8FW4WFWP+M4"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJk8ompr0U5kcRAiJ8_apU_mc",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9
+      },
+      {
+         "formatted_address" : "20 Rue de l'Ormeteau, 77500 Chelles, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8897249,
+               "lng" : 2.5954314
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.89120852989272,
+                  "lng" : 2.596700679892722
+               },
+               "southwest" : {
+                  "lat" : 48.88850887010728,
+                  "lng" : 2.594001020107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "990a60b35063327708177f7d2a5cd3a1c3145da6",
+         "name" : "CrossFit Chelles - Salle de Sport Chelles (Fitness, Musculation, Yoga) - Matériel de sport",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117864023968799177084/photos\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdV2sNtn7yeZIWRXK79zJ_ri1xY7RX8CTcwFAAFHMpKTMRQQBGjQH4REUHlUCx0SL1kQQoRlYZnvhvIpC4Sqt_wKbs2UzyaLaV2SXbmU0lewaeVLnHwXBJvwrOH3YOd8WEhBofG2piKE6ogS0OM76hPyWGhTsclFHUgWWiJ-a0NfiICGjBGk63A",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJWfEoy6oR5kcRlDJk2TPwVuw",
+         "plus_code" : {
+            "compound_code" : "VHQW+V5 Chelles, France",
+            "global_code" : "8FW4VHQW+V5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJWfEoy6oR5kcRlDJk2TPwVuw",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24
+      },
+      {
+         "formatted_address" : "69 Rue du Tir, 77500 Chelles, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8893657,
+               "lng" : 2.5948243
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.89057902989271,
+                  "lng" : 2.596272229892722
+               },
+               "southwest" : {
+                  "lat" : 48.88787937010727,
+                  "lng" : 2.593572570107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1021f4bd8982315672fb4d0c0c1d563ef75cddbc",
+         "name" : "Boost Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110959785119779711768/photos\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAt834gpWXdSmiA8Lhu064vvuHV7CVTF1qVpagbKb9fDq94THF5MOINysT-u4Liq0uYilPjjDfG9sdV6mCacPAT2tZpn8tg5zGuCy-2UGqeB5dyNJzzJWQ6rNjkcDSSZFHEhD1ZR7hX3T8YnjcRmvfvl3uGhSrERC_YBOl7xsQzvsvqkuQYGzfkg",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJQbO_z6oR5kcROmzfTGLXktI",
+         "plus_code" : {
+            "compound_code" : "VHQV+PW Chelles, France",
+            "global_code" : "8FW4VHQV+PW"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJQbO_z6oR5kcROmzfTGLXktI",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26
+      },
+      {
+         "formatted_address" : "9 Rue du Bac, 93360 Neuilly-Plaisance, France",
+         "geometry" : {
+            "location" : {
+               "lat" : 48.8526193,
+               "lng" : 2.5130407
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.85397527989272,
+                  "lng" : 2.514483429892723
+               },
+               "southwest" : {
+                  "lat" : 48.85127562010727,
+                  "lng" : 2.511783770107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "40ae9f0d28a951dbb66a5842751eab1a6e6d269e",
+         "name" : "Fitness Park Neuilly-Plaisance",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3488,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109851014802849776673/photos\"\u003eEmir Belkahia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfCFuALFaGnqi-k_tAWPBFq_0pB6U9PDdinu4KcyHVMulK0HtfINMaDSfnubb8LVwpVnUzIalmOPiWS5y7DfVrAHXbP1_FKxp2N8Dqrh131Dq6RI8X914l2yEVQeQXlLcEhCsojz6Eu45WNLoPyGkPl3nGhRRZDIY9FvJLNAQIIP0aGUAjFGovg",
+               "width" : 3488
+            }
+         ],
+         "place_id" : "ChIJH9pRAIgN5kcRVNQvVG71-NQ",
+         "plus_code" : {
+            "compound_code" : "VG37+26 Neuilly-Plaisance, France",
+            "global_code" : "8FW4VG37+26"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJH9pRAIgN5kcRVNQvVG71-NQ",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 236
+      }
+   ],
+   "status" : "OK"
+}

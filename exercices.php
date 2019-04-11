@@ -68,6 +68,7 @@ function print_array($tab){
     <title>TipSport</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/exercices.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
 <div class="sidebar">
