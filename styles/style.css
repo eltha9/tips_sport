@@ -278,8 +278,8 @@ OBJECTIF.HTML
     margin-top: 4.25rem;
 }
 
-.bodyPart form{
-    margin-top: 1.5625rem;
+.bodyPart p{
+    margin-bottom: 1.5625rem;
 }
 
 .bodyPart form label{
@@ -296,8 +296,9 @@ PLANNING.HTML
     margin-top: 5.25rem;
 }
 
-.days form, .time form{
-    margin-top: 1.5625rem;
+.days p,
+.time p{
+    margin-bottom: 1.5625rem;
 }
 
 .days form label, .time form label{
