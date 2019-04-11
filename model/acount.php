@@ -1,12 +1,17 @@
 <?php
 // $program
 // $set_program
+require './controller/program.php';
+$db_log = parse_ini_file("config.ini");
+$db_log = (object)$db_log;
 if(!empty($_POST)){
-    require './controller/program.php';
+
     $user_data = $pdo->query('SELECT * FROM users WHERE hash_user=\''.$_SESSION['user'].'\'')->fetch();
 }else if(empty($_POST)){
-    
+
+    $user_data = $pdo->query('SELECT * FROM users WHERE hash_user=\''.$_SESSION['user'].'\'')->fetch();    
 }
+
 function print_array($tab){
     $text= ' ';
     $lenght = count($tab);
@@ -21,8 +26,13 @@ function print_array($tab){
     }
     return $text;
 }
-
-$user_progra_exrecice
+$plop = [];
+foreach($semaine as $jour){
+    if(!empty($jour['exos'])){
+        $plop= $jour['exos'];
+        break;
+    }
+}
 
 
 ?>
@@ -84,18 +94,21 @@ $user_progra_exrecice
          et nos conseils pour vous assurer que vos entraînements seront efficaces et sans danger. 
         </p>
     </div>
+    <?php 
+        foreach($plop as $task){
+
+            $value = $pdo->query('SELECT * FROM exercice WHERE id = \''.$task.'\'')->fetch();
+            echo $task;
+    ?>
+
     <div class="first-exercize">
         <div class="left-content">
-            <img src="images/squat-picture.jpg" alt="">
+            <img src="<?= $value->image_link?>" alt="">
         </div>
         <div class="right-content">
-            <h3>Squats</h3>
-            <p>
-                Debout, jambes écartées de la largeur des épaules, pointes de pieds légèrement écartées vers l’extérieur (à 10h10), 
-                bras tendus devant vous (parallèles au sol), fléchir les jambes en poussant les fesses vers l’arrière jusqu’à avoir les cuisses parallèles au sol. Pousser ensuite sur 
-                vos jambes afin de revenir à la position initiale, sans toutefois verrouiller les genoux (garder les jambes légèrement fléchies).
-            </p>
-            <span><img src="images/arrow-right.svg" alt="">En savoir plus</span>
+            <h3><?= $value->name?></h3>
+            <p><?= $value->description?></p>
+            
         </div>
     </div>
     <div class="array-weight-repetition">
@@ -108,6 +121,7 @@ $user_progra_exrecice
             <span>12 kg</span>
         </div>
     </div>
+    <?php } ?>
     
 
     <div class="container-planning" data-text="Section 3" id="sec3">

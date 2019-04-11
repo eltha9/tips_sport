@@ -1,20 +1,18 @@
 <?php
-session_start();
-$db_log = parse_ini_file("../config.ini");
-$db_log = (object)$db_log;
+
 
 require 'database.php';
 
 $check = $pdo->prepare('SELECT * FROM user_program WHERE hash_user= :hash');
 $check->bindValue('hash', $_SESSION['user']);
 $final_check = $check->execute();
-var_dump($final_check);
+
 if($final_check != false){
 
     $del = $pdo->prepare('DELETE FROM user_program WHERE hash_user= :hash');
     $del->bindValue('hash',$_SESSION['user'] );
     $del->execute();
-    echo 'deleted';
+    
 }
 
 
@@ -114,7 +112,7 @@ foreach($exercices_user as $exo){
     }
 }
 
-$health_data = json_decode(file_get_contents('../data/health.json'));
+$health_data = json_decode(file_get_contents('data/health.json'));
 
 //trie en fonction de la santé
 if($program['health'][0] == 'Asme' && $program['health'][2] == 'Articulations' && $program['health'][3] == 'Muscles'){
@@ -183,7 +181,7 @@ $set_program= [
 // dimanche 3/3
 $nb_exercice = count($temp_exercice);
 $i =0;
-
+$plop=[];
 
 if($nb_exercice<4){
     while($nb_exercice<4){
@@ -196,7 +194,9 @@ if($nb_exercice<4){
 foreach($_POST['day'] as $day){
     
     for($i=0; $i<4; $i++){
-        array_push($set_program['program_planning'][$day]['exos'], $temp_exercice[rand(0,$nb_exercice-1)]->id);
+        $exo_choice =$temp_exercice[rand(0,$nb_exercice-1)]->id;
+        array_push($plop, $exo_choice);
+        array_push($set_program['program_planning'][$day]['exos'], $exo_choice);
     }
 }
 
@@ -206,7 +206,7 @@ foreach($_POST['day'] as $day){
 //         if()
 //     }
 // }
-
+$semaine= $set_program['program_planning'];
 $set_program['program_planning'] = json_encode($set_program['program_planning']);
 $send = $pdo->prepare('INSERT INTO user_program (hash_user, program_time, program_star, program_planning) VALUES (:hash_user, :program_time, :program_star, :program_planning)');
 
