@@ -6,7 +6,7 @@ TipSport est une web application qui vous permet de générer votre propre progr
 
 ### De nombreuses et diverses features sont disponibles :
 - Système de connection et inscription
-- Algorithme qui génère un programme avec : exercice, nombre de répétitions, poids idéal et les muscles solicités
+- Algorithme qui génère un programme avec : exercices, nombres de répétitions, poids idéal et les muscles solicités
 - Un planning rempli avec : les temps d'entraînement, le nombre de série et les exercices à effectuer
 - Une carte avec les différentes salles de sport, centres sportifs, magasins de sport et biocop d'indiqués
 - La liste complète des exercices catégorisés en fonction des objectifs 
