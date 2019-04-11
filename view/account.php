@@ -23,7 +23,7 @@ if(!empty($_POST)){
         $_SESSION['user'] = $check_is_in->hash_user;
 
         if($check_is_in->sexe == null){
-            header('Location: ../info.php');
+            header('Location: ../program.php');
         }else if($check_is_in->sexe != null){
             header('Location: ../home.php');
         }

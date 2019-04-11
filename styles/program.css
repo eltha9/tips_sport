@@ -200,7 +200,7 @@ h3{
 }
     
     .progress .bar {
-    width: 33%;
+    width: calc(100%/3);
     height: 100%;
     background-color: #2D92AF; 
 }
@@ -302,4 +302,20 @@ PLANNING.HTML
 
 .days form label, .time form label{
     padding: 0 1.5625rem 0 0.3125rem;
+}
+
+
+
+/* display */
+
+.hidden{
+    display: none;
+}
+
+/* objectif state */
+.clicked{
+    border: 2px solid red;
+}
+.lets-hidden{
+    background: #2D92AF;
 }

@@ -33,7 +33,7 @@ $user_age= 20;
             </div>
             <div class="bottom-content">
                 <li><a href="">Tout les exercices</a></li>
-                <li><a href="">Déconnection</a></li>
+                <li><a href="./view/logout.php">Déconnection</a></li>
             </div>
         </ul>
     </div>
@@ -42,7 +42,7 @@ $user_age= 20;
     <h1 data-text="Section 1" id="sec1">Mon programme</h1>
     <div class="container-statistic">
         <h3>Mes statistiques</h3>
-        <span>change</span>
+        <span><a href="program.php" style="text-decoration: none;">Change</a></span>
     </div>
     <div class="array-statistic">
         <div class="size">

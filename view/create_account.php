@@ -33,7 +33,7 @@ if(!empty($_POST)){
         // send welcome mail to user
         session_start();
         $_SESSION['user']= $user_hash;
-        header('Location: ../info.php');
+        header('Location: ../program.php');
 
     }
 
