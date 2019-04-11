@@ -15,7 +15,7 @@
             <h1>TipSport</h1>
         </div>
 
-        <form action="./controller/program.php" method='post'>
+        <form action="home.php" method='post'>
             <section class="first " >
                 <div class="titles">
                     <h2 class="gothLight">1 / 3</h2>
@@ -55,15 +55,15 @@
                 <div class="problems">
                     <ul>
                         <li>
-                            <input class="gothLight" type="checkbox" name="health[]" id="" value="Asme">
+                            <input class="gothLight" type="checkbox" name="health[]" id="" value="asme">
                             <label class="gothLight" for="weight">Asthme</label>
                         </li>
                         <li>
-                            <input class="gothLight" type="checkbox" name="health[]" id="" value="Articulations">
+                            <input class="gothLight" type="checkbox" name="health[]" id="" value="articulations">
                             <label class="gothLight" for="weight">Problèmes d'articulation</label>
                         </li>
                         <li>
-                            <input class="gothLight" type="checkbox" name="health[]" id="" value="Muscles">
+                            <input class="gothLight" type="checkbox" name="health[]" id="" value="muscles">
                             <label class="gothLight" for="weight">Douleurs musculaires</label>
                         </li>
                     </ul>

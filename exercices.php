@@ -1,8 +1,6 @@
 <?php
 
-function string_array($tab){
 
-}
 
 
 

@@ -1,14 +1,30 @@
 <?php
-
+// $program
+// $set_program
 if(!empty($_POST)){
     require './controller/program.php';
-}else if(empty($_POST)){
     $user_data = $pdo->query('SELECT * FROM users WHERE hash_user=\''.$_SESSION['user'].'\'')->fetch();
+}else if(empty($_POST)){
+    
+}
+function print_array($tab){
+    $text= ' ';
+    $lenght = count($tab);
+    foreach($tab as $key=>$txt){
+        if($key == $lenght-1){
+            $text = $text.$txt;
+
+        }else{
+            $text = $text.$txt.', ';
+
+        }
+    }
+    return $text;
 }
 
+$user_progra_exrecice
 
 
-$user_age= 20;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,11 +71,11 @@ $user_age= 20;
         </div>
         <div class="age">
             <h5>âge</h5>
-            <span><?= $user_age?> ans</span>
+            <span><?= $user_data->bearth_date?> ans</span>
         </div>
         <div class="goal">
             <h5>objectif</h5>
-            <span>masse</span>
+            <span><?= $user_data->objectif?></span>
         </div>
     </div>
     <div class="container-exercize" data-text="Section 2" id="sec2">
@@ -87,35 +103,12 @@ $user_age= 20;
             <h5>Nombre de répétitions</h5>
             <span>x 15</span>
         </div>
-        <div class="weight-array">
+        <div class="weight-array"> 
             <h5>Poids idéal</h5>
             <span>12 kg</span>
         </div>
     </div>
-    <div class="first-exercize">
-        <div class="left-content">
-            <img src="images/traction-barre-fixe.jpg" alt="">
-        </div>
-        <div class="right-content">
-            <h3>Tractions à la barre fixe</h3>
-            <p>
-                Debout, jambes écartées de la largeur des épaules, pointes de pieds légèrement écartées vers l’extérieur (à 10h10), 
-                bras tendus devant vous (parallèles au sol), fléchir les jambes en poussant les fesses vers l’arrière jusqu’à avoir les cuisses parallèles au sol. Pousser ensuite sur 
-                vos jambes afin de revenir à la position initiale, sans toutefois verrouiller les genoux (garder les jambes légèrement fléchies).
-            </p>
-            <span><img src="images/arrow-right.svg" alt="">En savoir plus</span>
-        </div>
-    </div>
-    <div class="array-weight-repetition">
-        <div class="repetition-array">
-            <h5>Nombre de répétitions</h5>
-            <span>x 10</span>
-        </div>
-        <div class="weight-array">
-            <h5>Poids idéal</h5>
-            <span>8 kg</span>
-        </div>
-    </div>
+    
 
     <div class="container-planning" data-text="Section 3" id="sec3">
         <h3>Planning</h3>

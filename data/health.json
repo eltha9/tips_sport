@@ -1,6 +1,6 @@
-[
-    {
-        "issue": "Asme",
+{
+    "asme": {
+    
         "restriction":{
             "muscles": [
                 "Abdos",
@@ -9,15 +9,15 @@
             "duration":  30
         }
     },
-    {
-        "issue": "Articulations",
+    "articulations": {
+        
         "restriction":{
             "muscles": ["Dos"],
             "duration":  30
         }
     },
-    {
-        "issue": "Muscles",
+    "auscles":{
+
         "restriction":{
             "muscles": [
                 "Jambes",
@@ -26,4 +26,4 @@
             "duration":  60
         }
     }
-]
+}
