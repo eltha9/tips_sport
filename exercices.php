@@ -76,10 +76,10 @@ function print_array($tab){
         <h1>TipSport</h1>
         <ul>
             <div class="top-content">
-                <li><a class='testjs' href='home.php#sec1'>Mes statistiques</a></li>
-                <li><a href='home.php#sec2'>Mes exercices</a></li>
-                <li><a href='home.php#sec3'>Planning</a></li>
-                <li><a class='testjs4' href='home.php#sec4'>Carte</a></li>
+                <li><a class='testjs' href='index.php'>Mes statistiques</a></li>
+                <li><a href='index.php'>Mes exercices</a></li>
+                <li><a href='index.php'>Planning</a></li>
+                <li><a class='testjs4' href='index.php'>Carte</a></li>
             </div>
             <div class="bottom-content">
                 <li><a href="exercices.php">Tous les exercices</a></li>

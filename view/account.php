@@ -35,5 +35,14 @@ if(!empty($_POST)){
 
 
 }
+// else{
+//     session_start();
+//     $check = $pdo->prepare('SELECT * FROM user_program WHERE hash_user= :hash');
+//     $check->bindValue('hash', $_SESSION['user']);
+//     $final_check = $check->execute();
 
-?>
+//     if($final_check != false){
+//         header('Location: ../home.php');
+//     }
+// }
+

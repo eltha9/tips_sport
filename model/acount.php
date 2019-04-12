@@ -1,7 +1,7 @@
 <?php
 // $program
 // $set_program
-require './controller/program.php';
+require 'controller/program.php';
 $db_log = parse_ini_file("config.ini");
 $db_log = (object)$db_log;
 if(!empty($_POST)){
@@ -20,20 +20,37 @@ function print_array($tab){
             $text = $text.$txt;
 
         }else{
-            $text = $text.$txt.', ';
+            $text = $text.$txt.'/ ';
 
         }
     }
     return $text;
 }
-$plop = [];
-foreach($semaine as $jour){
-    if(!empty($jour['exos'])){
-        $plop= $jour['exos'];
-        break;
-    }
-}
 
+if(isset($plop)){
+    
+    $plop = [];
+    foreach($semaine as $jour){
+        if(!empty($jour['exos'])){
+            $plop= $jour['exos'];
+            break;
+        }
+    }
+
+}else{
+    $get = $pdo->query('SELECT * FROM user_program WHERE hash_user=\''.$_SESSION['user'].'\'')->fetchAll();
+   
+    $plan= json_decode($get[0]->program_planning, true);
+
+    foreach( $plan as $jour){
+        if(!empty($jour['exos'])){
+            $plop= $jour['exos'];
+            break;
+        }
+    }
+    $plop= [];
+}
+$conca =[];
 
 ?>
 <!DOCTYPE html>
@@ -99,7 +116,7 @@ foreach($semaine as $jour){
         foreach($plop as $task){
 
             $value = $pdo->query('SELECT * FROM exercice WHERE id = \''.$task.'\'')->fetch();
-            echo $task;
+            array_push($conca,$value->name );
     ?>
 
     <div class="first-exercize">
@@ -127,7 +144,34 @@ foreach($semaine as $jour){
 
     <div class="container-planning" data-text="Section 3" id="sec3">
         <h3>Planning</h3>
-        <div class="planning"></div>
+        <div class="planning">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>jours</th>
+                    <th>exercice</th>
+                    <th>durée</th>
+                </tr>
+
+                <?php 
+                $get = $pdo->query('SELECT * FROM user_program WHERE hash_user=\''.$_SESSION['user'].'\'')->fetchAll();
+   
+                $plan= json_decode($get[0]->program_planning, true);
+                
+                
+                foreach($plan as $key=>$d)?>
+                <pre>
+
+                <tr>
+                    <td></td>
+                    <td><?= $key?></td>
+                    <td><?= print_array($conca)?></td>
+                    
+                    <td><?= $d['duration']?></td>
+                </tr>
+                <?php ?>
+            </table>
+        </div>
     </div>
 
     <div class="container-map" data-text="Section 4" id="sec4">
