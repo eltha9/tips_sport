@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w scss/ -o public/styles/"
+    "scss": "node-sass -w scss/ -o public/styles/",
+    "scss-min": "node-sass scss/ -o public/styles/ --output-style compressed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "uglify-js": "^3.8.0"
   }
 }

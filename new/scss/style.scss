@@ -1,3 +1,107 @@
+// CSS VAR
+:root{
+    //color
+    --light-blue: #4fd7eb;
+    --blue: #2d92af;
+    --light-grey: #f8f8f8;
+    --white: #fcfcfc;
+
+    //font
+    --montserra: 'Montserrat', sans-serif;
+
+}
+
+//SASS SHROCUT
+
+//colors
+$lightBlue: var(--light-blue);
+$blue: var(--blue);
+$lightGrey: var(--light-grey);
+$white: var(--white);
+
+//fonts
+$montserra: var(--montserra);
+
+//SASS VAR
+
+
+
+
+// MAIN STYLE
 body{
+    font-family: $montserra;
+
     
+    margin:0;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top:20px;
+    left: 20px;
+
+    margin:0;
+}
+main{
+    // width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    
+    &.connect{
+        top:0;
+        left: 0;    
+
+        section.home-presentation{
+
+            .presentation-create{
+                display: block;
+            }
+            .presentation-connect{
+                display: none;
+            }
+        }
+    }
+    &.create{
+        top:0;
+        left: -60vw;
+
+        section.home-presentation{
+
+            .presentation-create{
+                display: none;
+            }
+            .presentation-connect{
+                display: block;
+            }
+        }
+    }
+    
+    section{
+        height: 100%;
+        
+
+        &.home-form{
+            background-color: blue;
+            width: 60vw;
+
+        }
+        &.home-presentation{
+            background-color: orange;
+            width: 40vw;
+
+            .content{
+                
+            }
+        }
+
+    }
 }
