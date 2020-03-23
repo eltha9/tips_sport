@@ -9,7 +9,7 @@ function ip_location($ip){
 }
 
 function places($place){
-    $key='AIzaSyDxO8x-NVuG-PsoRYu444MyVWaz9soiqX0';
+    $key='plop';
 
     $query = http_build_query([
         'location' => $place,
