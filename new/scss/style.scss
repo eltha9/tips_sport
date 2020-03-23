@@ -6,9 +6,15 @@
     --light-grey: #f8f8f8;
     --white: #fcfcfc;
 
+    //color opacity
+    --blue-opacity-home: rgba(45,146,175, 0.5);
+
     //font
     --montserra: 'Montserrat', sans-serif;
 
+    //background image
+    --connect-img : url('../assets/connect-home-img.png');
+    --create-img : url('../assets/create-home-img.png');
 }
 
 //SASS SHROCUT
@@ -19,11 +25,25 @@ $blue: var(--blue);
 $lightGrey: var(--light-grey);
 $white: var(--white);
 
+$blueOpacityHome: var(--blue-opacity-home);
+
+
 //fonts
 $montserra: var(--montserra);
 
-//SASS VAR
+//font size
+$fs-h1: 38px;
+$fs-h2: 44px;
+$fs-h3: 36px;
+$fs-medium: 22px;
+$fs-button: 28px;
+$fs-input: 32px;
 
+//SASS VAR
+$presentation-padding: 10%;
+
+$icon-size-w: 10%;
+$icon-size-h: $icon-size-w;
 
 
 
@@ -46,6 +66,7 @@ h1{
     left: 20px;
 
     margin:0;
+    font-size: $fs-h1;
 }
 main{
     // width: 100%;
@@ -56,6 +77,10 @@ main{
 
     position: absolute;
     
+    will-change: left;
+    transition: left 1s ease-in;
+    
+
     &.connect{
         top:0;
         left: 0;    
@@ -70,9 +95,10 @@ main{
             }
         }
     }
-    &.create{
+    &:not(.connect){
         top:0;
         left: -60vw;
+        
 
         section.home-presentation{
 
@@ -95,11 +121,76 @@ main{
 
         }
         &.home-presentation{
-            background-color: orange;
+            
             width: 40vw;
-
-            .content{
+            
+            .presentation-create, .presentation-connect{
+                width: 100%;
+                height: 100%;
                 
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                box-sizing: border-box;
+                .content{
+                    width: 100%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    
+                    padding: $presentation-padding;
+                    background-color: $blueOpacityHome;
+
+
+                    color: $white;
+                    h3{
+                        margin: 0;
+                        font-size: $fs-h3;
+                    }
+                    ul{
+                        list-style: none;
+                        padding: 0;
+
+                        li{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .icon{
+                                margin-right: 30px;
+
+                                width: $icon-size-w;
+                                height: $icon-size-h;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .description{
+                                font-size: $fs-medium;
+                            }
+
+                        }
+                        
+                    }
+                    .switch-button{
+                        text-align: center;
+                        h2{
+                            margin:0;
+                            font-size: $fs-h2;
+                        }
+                        button{
+                            font-size: $fs-button;
+                        }
+                    }
+                }
+            }
+
+            .presentation-create{
+                background-image: var(--create-img);
+                
+            }
+
+            .presentation-connect{
+                background-image: var(--connect-img);
             }
         }
 
