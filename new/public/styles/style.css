@@ -63,6 +63,9 @@ main {
           box-sizing: border-box;
           padding: 10%;
           background-color: var(--blue-opacity-home);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
           color: var(--white); }
           main section.home-presentation .presentation-create .content h3, main section.home-presentation .presentation-connect .content h3 {
             margin: 0;
@@ -73,7 +76,8 @@ main {
             main section.home-presentation .presentation-create .content ul li, main section.home-presentation .presentation-connect .content ul li {
               display: flex;
               flex-direction: row;
-              align-items: center; }
+              align-items: center;
+              margin-bottom: 20%; }
               main section.home-presentation .presentation-create .content ul li .icon, main section.home-presentation .presentation-connect .content ul li .icon {
                 margin-right: 30px;
                 width: 10%;
@@ -83,13 +87,26 @@ main {
                   height: 100%; }
               main section.home-presentation .presentation-create .content ul li .description, main section.home-presentation .presentation-connect .content ul li .description {
                 font-size: 22px; }
+            main section.home-presentation .presentation-create .content ul li:last-of-type, main section.home-presentation .presentation-connect .content ul li:last-of-type {
+              margin-bottom: 0; }
           main section.home-presentation .presentation-create .content .switch-button, main section.home-presentation .presentation-connect .content .switch-button {
             text-align: center; }
             main section.home-presentation .presentation-create .content .switch-button h2, main section.home-presentation .presentation-connect .content .switch-button h2 {
               margin: 0;
-              font-size: 44px; }
+              font-size: 44px;
+              font-weight: 600;
+              margin-bottom: 32px; }
             main section.home-presentation .presentation-create .content .switch-button button, main section.home-presentation .presentation-connect .content .switch-button button {
-              font-size: 28px; }
+              font-size: 28px;
+              color: var(--white);
+              background-color: transparent;
+              border: 2px solid var(--white);
+              border-radius: 40.5px;
+              padding-top: 8px;
+              padding-bottom: 8px;
+              width: 50%; }
+              main section.home-presentation .presentation-create .content .switch-button button:hover, main section.home-presentation .presentation-connect .content .switch-button button:hover {
+                cursor: pointer; }
       main section.home-presentation .presentation-create {
         background-image: var(--create-img); }
       main section.home-presentation .presentation-connect {

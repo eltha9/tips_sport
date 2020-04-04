@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w scss/ -o public/styles/",
-    "scss-min": "node-sass scss/ -o public/styles/ --output-style compressed"
+    "dev": "node-sass -w scss/ -o public/styles/",
+    "build": "node-sass scss/ -o public/styles/ --output-style compressed"
   },
   "author": "",
   "license": "ISC",
