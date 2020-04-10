@@ -40,7 +40,7 @@ $fs-button: 28px;
 $fs-input: 32px;
 
 //SASS VAR
-$presentation-padding: 10%;
+$presentation-padding: 20% 10%;
 
 $icon-size-w: 10%;
 $icon-size-h: $icon-size-w;
@@ -50,7 +50,7 @@ $icon-size-h: $icon-size-w;
 // MAIN STYLE
 body{
     font-family: $montserra;
-
+    background-color: $white;
     
     margin:0;
 
@@ -67,6 +67,18 @@ h1{
 
     margin:0;
     font-size: $fs-h1;
+    color: $white;
+    will-change: color;
+
+
+    transition: color 0.3s ease-in;
+    transition-delay: 0.8s;
+    
+    &.blue{
+        color: $blue;
+        transition-delay: 0.2s;
+    }
+
 }
 main{
     // width: 100%;
@@ -77,8 +89,8 @@ main{
 
     position: absolute;
     
-    will-change: left;
-    transition: left 1s ease-in;
+    will-change: all;
+    transition: left 1s ease-in-out;
     
 
     &.connect{
@@ -86,13 +98,13 @@ main{
         left: 0;    
 
         section.home-presentation{
-
+            
             .presentation-create{
-                display: block;
+                display: none;
 
             }
             .presentation-connect{
-                display: none;
+                display: block;
 
             }
         }
@@ -105,11 +117,11 @@ main{
         section.home-presentation{
 
             .presentation-create{
-                display: none;
+                display: block;
 
             }
             .presentation-connect{
-                display: block;
+                display: none;
 
             }
         }
@@ -117,10 +129,9 @@ main{
     
     section{
         height: 100%;
-        
+        will-change: all;
 
         &.home-form{
-            background-color: blue;
             width: 60vw;
 
         }
@@ -162,7 +173,7 @@ main{
                             display: flex;
                             flex-direction: row;
                             align-items: center;
-                            margin-bottom: 20%;
+                            margin-bottom: 10%;
                             .icon{
                                 margin-right: 30px;
 
@@ -201,7 +212,10 @@ main{
                             padding-top: 8px;
                             padding-bottom: 8px;
 
-                            width: 50%;
+                            width: 60%;
+                            min-width: fit-content;
+                            text-transform: uppercase;
+                            font-weight: 500;
 
                             &:hover{
                                 cursor: pointer;
@@ -222,4 +236,84 @@ main{
         }
 
     }
+}
+
+main section.home-form{
+
+    .content{
+        width: 100%;
+        height: 100%;
+
+        padding: 20% 10%;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        
+        form{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            h2{
+    
+            }
+
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                label{
+    
+                    img{
+    
+                    }
+                    input{
+    
+                    }
+                }
+                a.password-reset{
+                
+                }
+            }
+
+            input[type=submit]{
+
+            }
+        }
+
+        .bubble{
+            position: absolute;
+
+            width: 40vh;
+            height: 40vh;
+            background-color: $lightBlue;
+            opacity: 0.2;
+            
+            border-radius: 50%;
+            
+            &.bb-top-right{
+                top: 0;
+                right: 0;
+                transform: translate(50%, -50%);
+            }
+            &.bb-top-left{
+                top: 0;
+                left: 0;
+                transform: translate(-50%, -50%);
+            }
+            &.bb-bottom-right{
+                bottom: 0;
+                right: 0;
+                transform: translate(50%, 50%);
+            }
+            &.bb-bottom-left{
+                bottom: 0;
+                left: 0;
+                transform: translate(-50%, 50%);
+            }
+        }
+
+    }
+
 }

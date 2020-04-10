@@ -11,9 +11,30 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="home connect">
+    <main class="home ">
         <section class="home-form connect">
-
+            <div class="content">
+                <h2>Créer un compte</h2>
+    
+                <form action="" method="POST">
+                    <label>
+                        <img src="./assets/icons/user.svg" alt="">
+                        <input type="text" placeholder="nom">
+                    </label>
+                    <label>
+                        <img src="./assets/icons/mail.svg" alt="">
+                        <input type="text" placeholder="mail">
+                    </label>
+                    <label>
+                        <img src="./assets/icons/lock.svg" alt="">
+                        <input type="text" placeholder="mot de passe">
+                    </label>
+    
+                    <input type="submit" value="S'inscrire">
+                </form>
+                <div class="bubble bb-top-right"></div>
+                <div class="bubble bb-bottom-left"></div>
+            </div>
         </section>
         <section class="home-presentation">
 
@@ -91,10 +112,30 @@
 
         </section>
         <section class="home-form create">
-
+            <div class="content">
+                
+                <form action="" method="POST">
+                    <h2>Connectez-vous !</h2>
+                    <div class="inputs">
+                        <label>
+                            <img src="./assets/icons/mail.svg" alt="">
+                            <input type="text" placeholder="mail">
+                        </label>
+                        <label>
+                            <img src="./assets/icons/lock.svg" alt="">
+                            <input type="text" placeholder="mot de passe">
+                        </label>
+                        <a href="" class="password-reset">mot de passe oublié ? </a>
+                    </div>
+    
+                    <input type="submit" value="Connection">
+                </form>
+                <div class="bubble bb-top-left"></div>
+                <div class="bubble bb-bottom-right"></div>
+            </div>
         </section>
     </main>
-    <h1>TipSport</h1>
+    <h1 class="">TipSport</h1>
     <script src="./scripts/home.js"></script>
 </body>
 </html>
