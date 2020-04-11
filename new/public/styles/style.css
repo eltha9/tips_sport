@@ -69,7 +69,7 @@ main {
           width: 100%;
           height: 100%;
           box-sizing: border-box;
-          padding: 20% 10%;
+          padding: 16vh 10%;
           background-color: var(--blue-opacity-home);
           display: flex;
           flex-direction: column;
@@ -126,23 +126,82 @@ main {
 main section.home-form .content {
   width: 100%;
   height: 100%;
-  padding: 20% 10%;
+  padding: 16vh 10%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
   text-align: center; }
   main section.home-form .content form {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
+    main section.home-form .content form h2 {
+      font-size: 44px;
+      color: var(--blue);
+      margin: 0; }
     main section.home-form .content form .inputs {
+      width: 100%;
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      align-items: center;
+      height: auto; }
+      main section.home-form .content form .inputs label {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        background-color: var(--light-grey);
+        box-sizing: border-box;
+        padding: 16px 32px;
+        border-radius: 40.5px;
+        margin-bottom: 8%; }
+        main section.home-form .content form .inputs label img {
+          height: 80%;
+          margin-right: 8px; }
+        main section.home-form .content form .inputs label input {
+          background-color: transparent;
+          border: none;
+          width: 100%;
+          color: var(--blue);
+          font-size: 32px;
+          font-weight: lighter; }
+          main section.home-form .content form .inputs label input:focus {
+            outline: none; }
+          main section.home-form .content form .inputs label input::placeholder {
+            color: var(--blue); }
+        main section.home-form .content form .inputs label:focus-within {
+          outline-color: #4d90fe;
+          outline-offset: -2px;
+          outline-style: auto;
+          outline-width: 5px; }
+        main section.home-form .content form .inputs label.second-choice {
+          margin-bottom: 0; }
+      main section.home-form .content form .inputs a.password-reset {
+        width: 60%;
+        text-align: left;
+        margin-bottom: 8%;
+        margin-left: 64px;
+        font-size: 22px;
+        color: var(--blue);
+        font-weight: lighter;
+        text-decoration: none; }
+    main section.home-form .content form input[type=submit] {
+      background-color: var(--blue);
+      font-size: 28px;
+      color: var(--white);
+      text-transform: capitalize;
+      border-radius: 40.5px;
+      width: 50%;
+      padding: 16px 32px;
+      cursor: pointer; }
   main section.home-form .content .bubble {
     position: absolute;
-    width: 40vh;
-    height: 40vh;
+    width: 50vh;
+    height: 50vh;
     background-color: var(--light-blue);
     opacity: 0.2;
     border-radius: 50%; }

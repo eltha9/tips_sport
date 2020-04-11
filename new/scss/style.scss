@@ -40,7 +40,7 @@ $fs-button: 28px;
 $fs-input: 32px;
 
 //SASS VAR
-$presentation-padding: 20% 10%;
+$presentation-padding: 16vh 10%;
 
 $icon-size-w: 10%;
 $icon-size-h: $icon-size-w;
@@ -244,40 +244,101 @@ main section.home-form{
         width: 100%;
         height: 100%;
 
-        padding: 20% 10%;
+        padding: $presentation-padding;
         box-sizing: border-box;
         position: relative;
         overflow: hidden;
         text-align: center;
         
         form{
+            width: 100%;
             height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            
+            align-items: center;
             h2{
-    
+                font-size: $fs-h2;
+                color: $blue;
+                margin: 0;
             }
 
             .inputs{
+                width: 100%;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                height: auto;
                 label{
-    
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    // justify-content: center;
+                    width: 60%;
+                    height: 100%;
+                    background-color: var(--light-grey);
+                    box-sizing: border-box;
+                    padding: 16px 32px;
+                    border-radius: 40.5px;
+                    margin-bottom: 8%;
+
+
                     img{
-    
+                        height: 80%;
+                        margin-right: 8px;
                     }
                     input{
-    
+                        background-color: transparent;
+                        border: none;
+
+                        width: 100%;
+
+                        color: $blue;
+                        font-size: $fs-input;
+                        font-weight: lighter;
+
+                        &:focus{
+                            outline: none;
+                        }
+                        &::placeholder{
+                            color: $blue;
+                        }
+                    }
+                    &:focus-within{
+                        outline-color: rgb(77, 144, 254); // #4D90FE
+                        outline-offset: -2px;
+                        outline-style: auto;
+                        outline-width: 5px;
+                    }
+
+                    &.second-choice{
+                        margin-bottom: 0;;
                     }
                 }
                 a.password-reset{
-                
+                    width: 60%;
+                    text-align: left;
+                    margin-bottom: 8%;
+                    margin-left:64px;
+
+                    font-size: $fs-medium;
+                    color: $blue;
+                    font-weight: lighter;
+                    text-decoration: none;
                 }
+                
             }
 
             input[type=submit]{
+                background-color: $blue;
+                font-size: $fs-button;
+
+                color: $white;
+                text-transform: capitalize;
+                border-radius: 40.5px;
+                width: 50%;
+                padding: 16px 32px;
+                cursor: pointer;
 
             }
         }
@@ -285,8 +346,8 @@ main section.home-form{
         .bubble{
             position: absolute;
 
-            width: 40vh;
-            height: 40vh;
+            width: 50vh;
+            height: 50vh;
             background-color: $lightBlue;
             opacity: 0.2;
             
