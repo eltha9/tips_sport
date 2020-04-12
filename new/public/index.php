@@ -1,14 +1,14 @@
 <?php
 
 
-// require('../components/home.html');
+// require('../pages/home.html');
 
 
 if( isset($_GET['page'])){
     $page = $_GET['page'];
 
 }else{
-    require('../components/home.html');
+    require('../pages/home.html');
 
     die;
 }
@@ -16,12 +16,12 @@ if( isset($_GET['page'])){
 switch($page){
     case '':
     case 'home':
-        require('../components/home.html');
+        require('../pages/home.html');
     break;
     case 'dashboard':
-        require('../components/dashboard.html');
+        require('../pages/dashboard.php');
     break;
     default:
-        require('../components/home.html');
+        require('../pages/home.html');
 }
 

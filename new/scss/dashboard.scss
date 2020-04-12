@@ -1,0 +1,163 @@
+// CSS VAR
+:root{
+    //color
+    --other-blue: #57a8bf;
+    --light-blue: #4fd7eb;
+    --blue: #2d92af;
+    --light-grey: #f8f8f8;
+    --white: #fcfcfc;
+
+    //color opacity
+    --blue-opacity-home: rgba(45,146,175, 0.5);
+    --blue-opacity-dashboard: rgba(45,146,175, 0.8);
+
+    //font
+    --montserra: 'Montserrat', sans-serif;
+
+    //background image
+    --connect-img : url('../assets/connect-home-img.png');
+    --create-img : url('../assets/create-home-img.png');
+}
+//SASS SHROCUT
+
+//colors
+$otherBlue: var(--other-blue);
+$lightBlue: var(--light-blue);
+$blue: var(--blue);
+$lightGrey: var(--light-grey);
+$white: var(--white);
+
+$blueOpacityHome: var(--blue-opacity-home);
+$blueOpacityDashboard : var(--blue-opacity-dashboard);
+
+
+//fonts
+$montserra: var(--montserra);
+
+//font size
+$fs-h1: 38px;
+$fs-h2: 44px;
+$fs-h3: 28px;
+$fs-medium: 22px;
+$fs-button: 28px;
+$fs-input: 32px;
+
+//SASS VAR
+$presentation-padding: 16vh 10%;
+
+$icon-size-w: 10%;
+$icon-size-h: $icon-size-w;
+
+//STYLE
+
+body{
+    font-family: $montserra;
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+}
+
+//menu
+section.left-menu{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+    background-color: $blueOpacityDashboard;
+
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    h1{
+        margin:0;
+        font-size: $fs-h1;
+        color: $white;
+        margin-bottom: 60px;
+    }
+
+    .menu{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .menu__bottom,.menu__top{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu__top{
+            
+            a{
+                margin-bottom: 16px;
+            }
+        }
+        .menu__bottom{
+
+            a{
+                margin-top: 16px;
+            }
+        }
+        a{
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+}
+
+
+//content
+main{
+    width: 80%;
+    height: 100%;
+    // background-color: red;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    padding: 20px;
+    h2{
+        margin:0;
+        font-size: $fs-h1;
+        color: $otherBlue;
+    }
+
+    
+}
+.my-stats, .my-exercices,.my-planning, .carte{
+
+    h3{
+        font-size: $fs-h3;
+        color:$blue;
+    }
+}
+
+.my-stats{
+
+}
+
+
+.my-exercices{
+
+}
+
+
+.my-planning{
+
+}
+
+
+.carte{
+
+}

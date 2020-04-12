@@ -1,0 +1,69 @@
+:root {
+  --other-blue: #57a8bf;
+  --light-blue: #4fd7eb;
+  --blue: #2d92af;
+  --light-grey: #f8f8f8;
+  --white: #fcfcfc;
+  --blue-opacity-home: rgba(45,146,175, 0.5);
+  --blue-opacity-dashboard: rgba(45,146,175, 0.8);
+  --montserra: 'Montserrat', sans-serif;
+  --connect-img: url('../assets/connect-home-img.png');
+  --create-img: url('../assets/create-home-img.png'); }
+
+body {
+  font-family: var(--montserra);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden; }
+
+section.left-menu {
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  background-color: var(--blue-opacity-dashboard);
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; }
+  section.left-menu h1 {
+    margin: 0;
+    font-size: 38px;
+    color: var(--white);
+    margin-bottom: 60px; }
+  section.left-menu .menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    section.left-menu .menu .menu__bottom, section.left-menu .menu .menu__top {
+      display: flex;
+      flex-direction: column; }
+    section.left-menu .menu .menu__top a {
+      margin-bottom: 16px; }
+    section.left-menu .menu .menu__bottom a {
+      margin-top: 16px; }
+    section.left-menu .menu a {
+      color: var(--white);
+      text-decoration: none; }
+
+main {
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px; }
+  main h2 {
+    margin: 0;
+    font-size: 38px;
+    color: var(--other-blue); }
+
+.my-stats h3, .my-exercices h3, .my-planning h3, .carte h3 {
+  font-size: 28px;
+  color: var(--blue); }
